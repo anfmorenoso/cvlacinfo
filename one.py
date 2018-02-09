@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup as soup
 # import codecs
 # sys.stdout = codecs.getwriter("iso-8859-1")(sys.stdout, 'xmlcharrefreplace')
 
-filename = "laconcha.txt"
+filename = "con.txt"
 f = open(filename, "w", encoding="utf8")
 g = open("wea.txt", "w", encoding="utf8")
 
