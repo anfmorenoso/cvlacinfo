@@ -41,11 +41,16 @@ f.write( "[" )
 for i in a:
     f.write( str(i) + " " )
 f.write( "]" )
+articulos( 37, tabs )
 
-blq37 = tabs[37].findAll("blockquote")
-# cowsep = [x.strip() for x in blq37[0].text.strip().replace('\n','').split(',')]
-# for item in cowsep:
-#     if '"' in item:
-#         print(item)
-g.write( str( blq37[4].text ) )
 #g.write( str(tabs[10]) )
+
+def articulos( id, sopa ):
+    blqs = sopa[id].findAll("blockquote")
+
+    cowsep = [x.strip() for x in blqs[0].text.strip().replace('\n','').split(',')]
+    for item in cowsep:
+        if '"' in item:
+            print(item)
+
+    g.write( str( blqs[4].text ) )
