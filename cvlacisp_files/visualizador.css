@@ -1,0 +1,135 @@
+/*Menu visualizador*/
+.sep{height:0;}
+.wrapper {
+	width:900px;
+	margin:0 auto;
+	text-align: left;
+	background: #FFFFFF;	
+}
+.header{
+	position:fixed;
+	top:0px;
+	width:900px;
+}
+.contentM{
+border-left:1px solid #cccccc;
+padding:10px;
+padding-left:20px;
+margin-left:201px;
+}
+img{border:0;}
+.menubar{
+height:38px;
+position:relative;
+background:#fff;
+width:100%;
+}
+.sep{clear:both;height:80px;border-bottom:3px solid #c0c0c0;}
+
+	.mmenu, .mmenu ul{z-index:999;list-style-type:none;padding:0;margin:0;border-top:1px solid #bbbbbb;border-bottom:1px solid #bbbbbb;background:#eeeeee;position:relative;}
+	* html .mmenu a:hover{position:relative;background:#e0e1fb;color:#331734}
+	* html .mmenu li ul{display:block;position:absolute;visibility:hidden}
+	.mmenu a{
+		color:#000066;
+		padding:4px;
+		vertical-align:middle;
+		display:block;			/* this helps make sure the link covers 100% area */
+		position:relative;		/* this helps make sure IE5 hover works on link */
+		border:1px solid #eeeeee;
+		text-decoration:none;
+		width:200px;                  /* Need to specify a width - this is used to open sub menu with margin-left */
+	}
+		
+	.mmenu ul a	{padding:2px}
+	.mmenu li{float:left;background:#eeeeee;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+	.mmenu li:hover{position:relative;z-index:999}
+	.mmenu li ul{padding:4px;display:none;border:1px solid #bbbbbb;}
+	.mmenu ul li ul{margin-left:200px;margin-top:-30px;} /* default top and left positioning for sub sub menus (this is specified in the list to make adhoc changes)*/
+	.mmenu ul li{clear:both;background:#eeeeee;}
+	.mmenu a:active,.mmenu a:focus{background:#e0e1fb; color:#331734;border:1px solid #bbbbbb}
+	.mmenu li:hover>a{background:#e0e1fb;color:#331734;border:1px solid #bbbbbb;text-decoration:none}
+	.mmenu li:hover>ul{display:block;position:absolute;} /*sub menu from vertical parent positioning */
+	
+	.mmenu table{position:absolute;left:-4px;top:8px;font-size:.1em;height:25px;}
+	.mmenu img{border:0;vertical-align:middle;padding-right:2px;}
+	.mmenu a:hover{color:#331734;;text-decoration:none;background:#e0e1fb;border:1px solid #bbbbbb;}
+	.menudownarrow{padding-left:5px;border:0;right:0;position:relative;vertical-align:middle;}
+	.menuarrow{padding-top:6px;padding-right:5px;border:0;right:0;position:absolute;vertical-align:middle;}
+	
+	.mmenu a:hover ul ul{visibility:hidden}
+	.mmenu a:hover ul a:hover ul ul{visibility:hidden}
+	.mmenu a:hover ul a:hover ul a:hover ul ul{visibility:hidden}
+	.mmenu a:hover ul a:hover ul a:hover ul a:hover ul ul{visibility:hidden}
+	.mmenu a:hover ul a:hover ul a:hover ul a:hover ul a:hover ul ul{visibility:hidden}	
+
+	.mmenu a:hover ul{visibility:visible}
+	.mmenu a:hover ul a:hover ul{visibility:visible}
+	.mmenu a:hover ul a:hover ul a:hover ul{visibility:visible}
+	.mmenu a:hover ul a:hover ul a:hover ul a:hover ul{visibility:visible}
+	.mmenu a:hover ul a:hover ul a:hover ul a:hover ul a:hover ul{visibility:visible}
+	.mmenu a:hover ul a:hover ul a:hover ul a:hover ul a:hover ul a:hover ul{visibility:visible}
+	
+	.menu1 a{width:300px;}
+	.menu1 ul{margin-left:300px !important;}
+
+	.menu12 a{width:100px;}
+	.menu12 ul{margin-left:100px !important;}
+
+	.menu13 a{width:200px;}
+	.menu13 ul{margin-left:200px !important;}
+
+	.menu14 a{width:100px;}
+	.menu14 ul{margin-left:100px !important;}
+
+
+.ads{
+	border:1px solid #c0c0c0;
+	text-align:center;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size:.8em;	
+}
+
+ .separator{
+border-top:1px solid black;
+font-size:.1em;
+height:1px;
+}
+.separator a:hover{
+
+font-size:.1em;
+height:1px;
+}
+/*Fin Menu visualizador*/
+
+
+body {
+	margin: 0 auto;
+	padding:0;
+	height:100%;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color:#fff;
+	color:#4d4d4d;
+	text-align:left;
+	overflow-x:hidden;
+}
+
+p{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#4d4d4d;
+	text-align:left;
+}
+.messageText {
+	color: #007A81;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	FONT-SIZE: 14px; 
+	padding: 2px;	
+}
+.fillText {
+	background-color:#E0F8E6;
+}
+.test1 {
+    width: 900px;     
+    word-break: break-all;
+}
